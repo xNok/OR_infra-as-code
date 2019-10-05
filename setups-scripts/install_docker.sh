@@ -13,6 +13,6 @@ add-apt-repository \
   stable"
 
 ## Install Docker CE.
-apt-get update && apt-get install -y docker-ce docker-ce-cli containerd.io
+apt-get update && apt-get install -y docker-ce docker-ce-cli docker-compose containerd.io
 
 # Source: https://docs.docker.com/install/linux/docker-ce/debian/
